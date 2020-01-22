@@ -425,8 +425,8 @@ a.showcase:hover{
 
 
 .navbar{
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -442,7 +442,7 @@ a.navbar-brand{
 	font-size: 1em !important;
 	color: #444444 !important;
 	transition: 0.3s;
-	margin-left: 5em;
+	margin-left: 4.5em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -464,7 +464,7 @@ a.navbar-brand:hover{
 }
 */
 ul.navbar-nav{
-	margin-right: 5em;
+	margin-right: 4.5em;
 }
 
 
