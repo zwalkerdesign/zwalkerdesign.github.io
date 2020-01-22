@@ -251,18 +251,19 @@ h1.squiggles{
 }
 
 @media only screen and (max-width: 1600px){
-h1.squiggles{
+h1.aboutMe{
 	font-family: Arbutus Slab;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 6vw;
+	font-size: 8vw;
 	color: #F2D26C;
-	line-height: .825em;
-	text-align: right;
+	line-height: 2em;
+	vertical-align: center;
+	text-align: left;
 	position: absolute;
-    top: 60%;
-    left: 80%;
-	background: linear-gradient(to right, #F2D26D 0%, #EA8D71 100%);
+    top: 0%;
+    left: -5%;	
+	background: linear-gradient(to right, #F2D26C 0%, #F4A647 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
