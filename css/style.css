@@ -119,6 +119,15 @@ p.footer{
 }
 }
 
+@media only screen and (min-width: 1200px){
+.workContainer{
+	margin-left: 10em;
+	margin-right: 10em;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+}
+
 @media only screen and (max-width: 600px){
 .workContainer{
 	margin-left: 1em;
