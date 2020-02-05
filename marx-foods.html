@@ -12,8 +12,6 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
 	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 	<link rel="shortcut icon" href="../favicon/favicon.ico">
-	<link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.0.6/dist/jBox.all.min.css" rel="stylesheet">
-
 
 </head>
 
@@ -73,9 +71,16 @@
 	<div class="workContainer">
 	<div class="row no-gutter">
 		<div class="col-sm-12 col-lg-6" id="image-popups">
-			<a href="\img\marxFoods\marxFoodsMainTile.jpg" data-jbox-image="gallery1">
-			<img src="\img\marxFoods\marxFoodsMainTile.jpg" alt="marx foods mobile mockups" class="img-responsive" width="100%">
-			</a>													   
+			<a href="#open-modal">Open Modal</a>
+				<div id="open-modal" class="modal-window">
+  					<div>
+   					<a href="#modal-close" title="Close" class="modal-close">close &times;</a>
+					<a href="\img\marxFoods\marxFoodsMainTile.jpg">
+					<img src="\img\marxFoods\marxFoodsMainTile.jpg" alt="marx foods mobile mockups" class="img-responsive" width="100%">
+					</a>
+ 				 	</div>
+				</div>
+												   
 		</div>
 		<div class="col-sm-12 col-lg-6">
 			<img src="\img\marxFoods\marxFoodsTile3.jpg" alt="marx foods desktop mockup" class="img-responsive" width="100%">
@@ -246,8 +251,6 @@ function closeNav() {
 }
 </script>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.0.6/dist/jBox.all.min.js"></script>
 	
 <!-- Google Analytics -->
 <script>
