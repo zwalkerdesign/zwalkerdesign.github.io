@@ -686,7 +686,7 @@ p.photoDescriptor{
 }
 
 .modal-window:target {
-  opacity: 80;
+  opacity: 1;
   pointer-events: auto;
 }
 
