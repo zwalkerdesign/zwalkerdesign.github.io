@@ -72,7 +72,9 @@
 	<div class="workContainer">
 	<div class="row no-gutter">
 		<div class="col-sm-12 col-lg-6">
+			<a href="\img\marxFoods\marxFoodsMainTile.jpg" class="data-effect="mfp-zoom-in" id="image-popups">
 			<img src="\img\marxFoods\marxFoodsMainTile.jpg" alt="marx foods mobile mockups" class="img-responsive" width="100%">
+			</a>													   
 		</div>
 		<div class="col-sm-12 col-lg-6">
 			<img src="\img\marxFoods\marxFoodsTile3.jpg" alt="marx foods desktop mockup" class="img-responsive" width="100%">
@@ -201,7 +203,21 @@ ScrollReveal().reveal('.description', { delay: 500 });
 ScrollReveal().reveal('.description', { duration: 3000 });
 
 	
-	
+// Image popups
+$('#image-popups').magnificPopup({
+  delegate: 'a',
+  type: 'image',
+  removalDelay: 500, //delay removal by X to allow out-animation
+  callbacks: {
+    beforeOpen: function() {
+      // just a hack that adds mfp-anim class to markup 
+       this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+       this.st.mainClass = this.st.el.attr('data-effect');
+    }
+  },
+  closeOnContentClick: true,
+  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+});	
 	
 	
 $(window).scroll(function() {
