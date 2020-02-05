@@ -72,7 +72,7 @@
 	<div class="workContainer">
 	<div class="row no-gutter">
 		<div class="col-sm-12 col-lg-6" id="image-popups">
-			<a href="\img\marxFoods\marxFoodsMainTile.jpg" target="_blank" id="myModal">
+			<a href="\img\marxFoods\marxFoodsMainTile.jpg" data-jbox-image="gallery1">
 			<img src="\img\marxFoods\marxFoodsMainTile.jpg" alt="marx foods mobile mockups" class="img-responsive" width="100%">
 			</a>													   
 		</div>
@@ -203,9 +203,8 @@ ScrollReveal().reveal('.description', { delay: 500 });
 ScrollReveal().reveal('.description', { duration: 3000 });
 	
 
-new jBox('Tooltip', {
-  attach: '.tooltip'
-});
+new jBox('Image');
+	
 var myModal = new jBox('Modal', {
 });
  
