@@ -691,10 +691,10 @@ p.photoDescriptor{
 }
 
 .modal-window>div {
-  width: 80%;
-  height: auto;
-  margin: 10% auto;
+  width: 50%;
   position: relative;
+  margin: 10% auto;
+  padding: 2rem;
 }
 
 .modal-window header {
