@@ -686,17 +686,13 @@ p.photoDescriptor{
 }
 
 .modal-window:target {
-  opacity: 1;
+  opacity: 80;
   pointer-events: auto;
 }
 
 .modal-window>div {
-  width: 400px;
+  width: 100%;
   position: relative;
-  margin: 10% auto;
-  padding: 2rem;
-  background: #fff;
-  color: #444;
 }
 
 .modal-window header {
