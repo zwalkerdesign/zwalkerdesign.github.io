@@ -692,6 +692,7 @@ p.photoDescriptor{
 
 .modal-window>div {
   width: auto;
+  margin: auto;
   position: relative;
 }
 
