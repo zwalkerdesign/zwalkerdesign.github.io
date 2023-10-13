@@ -200,7 +200,6 @@ p.footerTitle{
 	text-align: center !important;
 }
 
-@media only screen and (min-width: 600px){
 h1.aboutMe{
 	font-family: Arbutus Slab;
 	font-style: normal;
@@ -217,7 +216,7 @@ h1.aboutMe{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-}
+
 
 h1.squiggles{
 	font-family: Arbutus Slab;
